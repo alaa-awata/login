@@ -19,6 +19,14 @@ A simple full-stack login application with user registration and authentication.
 - **Database:** MongoDB with Mongoose ODM
 
 ---
+## Environment Variables
+
+Create a `.env` file in the backend folder with the following variables:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+PORT=3001
 
 ## Setup Instructions
 
@@ -27,3 +35,16 @@ A simple full-stack login application with user registration and authentication.
 ```bash
 git clone https://github.com/alaa-awata/login.git
 cd login
+
+
+# For backend
+cd server
+npm install
+npm run dev
+
+# Open a new terminal window/tab
+
+# For frontend
+cd client
+npm install
+npm run dev
