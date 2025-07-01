@@ -1,0 +1,71 @@
+/* Signup.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #011531 0%, #b69efe 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+.signup-container h2 {
+  margin-bottom: 24px;
+  letter-spacing: 2px;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.signup-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.signup-container input[type="submit"] {
+  margin-top: 20px;
+  background-color: #272654;
+  color: white;
+  padding: 12px 0;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.signup-container input[type="submit"]:hover {
+  background-color: #272654b9;
+}
+
+.signup-container p {
+  margin-top: 20px;
+}
+
+.signup-container a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 500;
+}
